@@ -1,0 +1,25 @@
+.container {
+    height: 20px;
+    width: 100%;
+    color: rgb(48, 25, 52);
+}
+
+.nav-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+
+    -ms-flex-pack: justify;
+
+    justify-content: space-between;
+
+    -webkit-box-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+
+    align-items: center;
+}
